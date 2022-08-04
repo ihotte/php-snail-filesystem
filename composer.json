@@ -1,0 +1,35 @@
+{
+    "name": "snail/filesystem",
+    "type": "library",
+    "description": "XCloud Filesystem Component",
+    "keywords": [],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "ext-mbstring": "*",
+        "symfony/filesystem": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snail\\Component\\Filesystem\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.3-dev"
+        }
+    }
+}
